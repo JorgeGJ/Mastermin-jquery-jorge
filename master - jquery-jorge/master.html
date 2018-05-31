@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+    <title>Jorge Granados Jurado</title>
+    <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+    <script src="objetoMaster.js"></script>
+    <script src="juego.js"></script>
+</head>
+<body>
+    <header>
+        <h1>MasterMind</h1>
+    </header>
+    <main>
+        <div id="paleta"></div>
+        <div id="paletaColores">
+            <div class="circulo" id="red"></div>
+            <div class="circulo" id="white"></div>
+            <div class="circulo" id="black"></div>
+            <div class="circulo" id="yellow"></div>
+            <div class="circulo" id="orange"></div>
+            <div class="circulo" id="brown"></div>
+            <div class="circulo" id="blue"></div>
+            <div class="circulo" id="green"></div>
+            <a id="vereficar">Vereficar</a>
+        </div>
+        <div id="acabado">
+            <h2 id="ganado">Has ganado</h2>
+        </div>
+    </main>
+</body>
+</html>
+
+<!-- uso clases para seleccionar bola hueca(eventos quitar y poner:first y revisa longitud), revisar for y poner mas selectores getContenido (el html entrar en un get en el dolar $paleta append)
